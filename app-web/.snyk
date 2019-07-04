@@ -1,0 +1,178 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-title > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-author > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - lint-staged > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-transformer-yaml > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-remark-images > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-sharp > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-favicon > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - flag > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - redux > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - eslint-plugin-flowtype > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - babel-plugin-styled-components > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-title > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-publisher > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-logo > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-image > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-description > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-date > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-author > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - lint-staged > yup > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-sharp > async > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper-url > @metascraper/helpers > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > gatsby-cli > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint-plugin-import > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > css-loader > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/traverse > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - flag > redux > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - metascraper > cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - html-metadata > cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - typography > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/core > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-eslint > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > favicons > cheerio > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - '@emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - '@bcgov/common-web-utils > window > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-emotion > @emotion/babel-preset-css-prop > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - '@emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-04T00:00:41.850Z'
+    - react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - react-spinners > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:00:41.850Z'
