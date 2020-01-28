@@ -112,7 +112,7 @@
     "unfurl.js": "^1.1.6",
     "unist-util-visit": "^1.4.0",
     "uri-parser": "^1.0.1",
-    "url-parse": "^1.4.4",
+    "url-parse": "^1.4.5",
     "valid-url": "^1.0.9"
   },
   "scripts": {
