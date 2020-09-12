@@ -109,7 +109,7 @@
     "string-similarity": "^3.0.0",
     "styled-system": "^3.1.11",
     "typography": "^0.16.18",
-    "unfurl.js": "^1.1.6",
+    "unfurl.js": "^3.0.0",
     "unist-util-visit": "^1.4.0",
     "uri-parser": "^1.0.1",
     "url-parse": "^1.4.4",
