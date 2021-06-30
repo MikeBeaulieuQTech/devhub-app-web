@@ -78,7 +78,7 @@
     "metascraper-url": "^4.7.0",
     "npm": "^6.6.0",
     "postcss-flexbugs-fixes": "^4.1.0",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.24.0",
     "prop-types": "^15.6.0",
     "query-string": "^6.2.0",
     "react": "^16.6.3",
