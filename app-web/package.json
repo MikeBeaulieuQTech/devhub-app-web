@@ -55,7 +55,7 @@
     "gatsby-transformer-sharp": "^2.1.9",
     "gatsby-transformer-yaml": "^2.1.6",
     "github-markdown-css": "^2.10.0",
-    "got": "^9.3.2",
+    "got": "^11.8.5",
     "hash.js": "^1.1.7",
     "html-metadata": "^1.7.0",
     "i": "^0.3.6",
